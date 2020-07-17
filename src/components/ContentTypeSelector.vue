@@ -9,6 +9,7 @@
       :loading="isLoading"
       label="name"
       track-by="codename"
+      :disabled="element.disabled"
       @input="onSelect"
     >
       <template slot="singleLabel" slot-scope="{ option }">
