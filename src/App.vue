@@ -107,7 +107,7 @@ export default {
 html {
   position: relative;
 }
-/* #app {
-  position: relative;
-} */
+#app {
+  padding-top: 0.5em;
+}
 </style>
