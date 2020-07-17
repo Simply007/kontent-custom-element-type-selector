@@ -2,6 +2,8 @@
 
 This [custom element](https://docs.kontent.ai/tutorials/develop-apps/integrate/integrating-your-own-content-editing-features) for [Kentico Kontent](https://kontent.ai) gives editors a way to select [content types](https://docs.kontent.ai/tutorials/manage-kontent/content-modeling/create-and-delete-content-types) from current project.
 
+![content types custom element demo](./types-selector-demo.gif)
+
 ## Features
 
 - Display optional debug panel for diagnostics
@@ -60,6 +62,13 @@ npm run build
 ```console
 npm run lint
 ```
+
+## Example scenarios
+
+Allow users to select what types you want in your listing on the website.
+
+![content types custom element showcase](./types-selector-showcase.gif)
+
 
 ### Customize Vue CLI configuration
 
