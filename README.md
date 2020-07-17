@@ -1,21 +1,19 @@
-# Kentico Kontent Type selector Custom Element
+# Kentico Kontent type selector custom element
 
-This [custom element](https://docs.kontent.ai/tutorials/develop-apps/integrate/integrating-your-own-content-editing-features) for [Kentico Kontent](https://kontent.ai) gives editors a way to INSERT PURPOSE.
+This [custom element](https://docs.kontent.ai/tutorials/develop-apps/integrate/integrating-your-own-content-editing-features) for [Kentico Kontent](https://kontent.ai) gives editors a way to select [content types](https://docs.kontent.ai/tutorials/manage-kontent/content-modeling/create-and-delete-content-types) from current project.
 
 ## Features
 
-- Editors can ...
-- Optional debug panel for diagnostics
+- Display optional debug panel for diagnostics
 
 ## Quick testing
 
-If you're interested in trying this out without deploying it yourself, you can use <https://YOUR_PUBLICLY_DEPLOYED_URL/>. This is the deployed version of the master branch in this repo. **This should only be used for quick testing as it is subject to change**
+If you're interested in trying this out without deploying it yourself, you can use [kontent-custom-element-type-selector.netlify.app](kontent-custom-element-type-selector.netlify.app) This is the deployed version of the master branch in this repo. **This should only be used for quick testing as it is subject to change**
 
 ## Deploying
 
 Netlify has made this easy. If you click the deploy button below, it will guide you through the process of deploying it to Netlify and leave you with a copy of the repository in your account as well.
 
-***UPDATE THE REPO URL IN THE DEPLOY BUTTON TO YOUR REPO URL***
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Simply007/kontent-custom-element-type-selector)
 
@@ -27,14 +25,12 @@ The JSON parameters required as as follows:
 
 | Name     | Type   | Description |
 | -------- | ------ | ----------- |
-| someSetting | string | This is an example setting that you want to document. |
 | debug    | boolean | (Optional) If present and set to true the debug panel will activate when editing a content item. |
 
 Sample parameters JSON:
 
 ```json
 {
-  "someSetting": "<CUSTOM_VALUE>",
   "debug": true
 }
 ```
