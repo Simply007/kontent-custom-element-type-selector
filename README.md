@@ -16,7 +16,6 @@ If you're interested in trying this out without deploying it yourself, you can u
 
 Netlify has made this easy. If you click the deploy button below, it will guide you through the process of deploying it to Netlify and leave you with a copy of the repository in your account as well.
 
-
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Simply007/kontent-custom-element-type-selector)
 
 ## Configuring the Custom Element
@@ -35,6 +34,21 @@ Sample parameters JSON:
 {
   "debug": true
 }
+```
+
+:warning: If the content type is changed, this custom element does not reflect this update in stored value. It could be extended that for every first load it updates all selected values, because the `id` stays the same.
+
+## Sample Value
+
+```json
+[
+  {
+    "id": "94803853-7af8-4b63-a218-5f440c0d692c",
+    "name": "Journal",
+    "codename": "journal",
+    "last_modified": "2020-07-17T08:39:50.4370746Z"
+  }
+]
 ```
 
 ## Developing
@@ -68,7 +82,6 @@ npm run lint
 Allow users to select what types you want in your listing on the website.
 
 ![content types custom element showcase](./types-selector-showcase.gif)
-
 
 ### Customize Vue CLI configuration
 
