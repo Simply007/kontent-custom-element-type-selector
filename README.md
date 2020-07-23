@@ -10,7 +10,7 @@ This [custom element](https://docs.kontent.ai/tutorials/develop-apps/integrate/i
 
 ## Quick testing
 
-If you're interested in trying this out without deploying it yourself, you can use [kontent-custom-element-type-selector.netlify.app](kontent-custom-element-type-selector.netlify.app) This is the deployed version of the master branch in this repo. **This should only be used for quick testing as it is subject to change**
+If you're interested in trying this out without deploying it yourself, you can use [kontent-custom-element-type-selector.netlify.app](https://kontent-custom-element-type-selector.netlify.app) This is the deployed version of the master branch in this repo. **This should only be used for quick testing as it is subject to change**
 
 ## Deploying
 
