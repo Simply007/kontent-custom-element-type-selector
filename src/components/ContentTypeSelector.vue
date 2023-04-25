@@ -55,7 +55,7 @@ export default {
     },
     fetchTypes() {
       fetch(
-        `https://deliver.kontent.ai/${this.context.projectId}/types?elements=null`
+        `https://qa-deliver.global.ssl.fastly.net/${this.context.projectId}/types?elements=null`
       )
         .then(response => response.json())
         .then(json => {
